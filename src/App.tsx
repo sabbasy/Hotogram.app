@@ -10,6 +10,7 @@ import { RequirePlatformAdmin } from "@/components/auth/RequirePlatformAdmin";
 const NotFound = lazy(() => import("./pages/NotFound"));
 const RestaurantAuth = lazy(() => import("./pages/auth/RestaurantAuth"));
 const AdminAuth = lazy(() => import("./pages/auth/AdminAuth"));
+const AuthCallback = lazy(() => import("./pages/auth/AuthCallback"));
 
 const RestaurantDashboard = lazy(() => import("./pages/restaurant/Dashboard"));
 const MenuManagement = lazy(() => import("./pages/restaurant/MenuManagement"));
@@ -51,6 +52,7 @@ const App = () => (
               <Route path="/" element={<RestaurantAuth />} />
               <Route path="/auth/restaurant" element={<RestaurantAuth />} />
               <Route path="/auth/admin" element={<AdminAuth />} />
+              <Route path="/auth/callback" element={<AuthCallback />} />
 
               <Route path="/restaurant/dashboard" element={<RestaurantDashboard />} />
               <Route path="/restaurant/menu" element={<MenuManagement />} />

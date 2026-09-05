@@ -25,9 +25,16 @@ export default function AdminAuth() {
     const { error } = await signIn(email, password);
 
     if (error) {
+      const msg = error.message?.toLowerCase() || '';
+      const isEmailNotConfirmed =
+        msg.includes('email not confirmed') ||
+        (error as { code?: string })?.code === 'email_not_confirmed';
+
       toast({
-        title: 'Login failed',
-        description: error.message,
+        title: isEmailNotConfirmed ? 'Email verification required' : 'Login failed',
+        description: isEmailNotConfirmed
+          ? 'Please verify your email address before logging in as admin.'
+          : error.message,
         variant: 'destructive',
       });
       setLoading(false);

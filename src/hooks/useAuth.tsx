@@ -8,8 +8,9 @@ interface AuthContextType {
   session: Session | null;
   restaurant: Restaurant | null;
   loading: boolean;
-  signUp: (email: string, password: string) => Promise<{ error: Error | null }>;
+  signUp: (email: string, password: string) => Promise<{ error: Error | null; user?: User | null; session?: Session | null }>;
   signIn: (email: string, password: string) => Promise<{ error: Error | null }>;
+  resendConfirmationEmail: (email: string) => Promise<{ error: Error | null }>;
   signOut: () => Promise<void>;
   refreshRestaurant: () => Promise<void>;
 }
@@ -86,20 +87,32 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signUp = async (email: string, password: string) => {
     const redirectUrl = `${window.location.origin}/`;
-    const { error } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signUp({
       email,
       password,
       options: {
-        emailRedirectTo: redirectUrl
-      }
+        emailRedirectTo: redirectUrl,
+      },
     });
-    return { error };
+    return { error, user: data?.user, session: data?.session };
   };
 
   const signIn = async (email: string, password: string) => {
     const { error } = await supabase.auth.signInWithPassword({
       email,
       password,
+    });
+    return { error };
+  };
+
+  const resendConfirmationEmail = async (email: string) => {
+    const redirectUrl = `${window.location.origin}/`;
+    const { error } = await supabase.auth.resend({
+      type: 'signup',
+      email,
+      options: {
+        emailRedirectTo: redirectUrl,
+      },
     });
     return { error };
   };
@@ -112,7 +125,19 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, restaurant, loading, signUp, signIn, signOut, refreshRestaurant }}>
+    <AuthContext.Provider
+      value={{
+        user,
+        session,
+        restaurant,
+        loading,
+        signUp,
+        signIn,
+        resendConfirmationEmail,
+        signOut,
+        refreshRestaurant,
+      }}
+    >
       {children}
     </AuthContext.Provider>
   );
