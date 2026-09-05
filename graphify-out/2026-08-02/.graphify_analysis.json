@@ -1,0 +1,1669 @@
+{
+  "communities": {
+    "0": [
+      "src_components_billing_paymenttransactionspanel",
+      "src_components_billing_paymenttransactionspanel_props",
+      "src_components_billing_paymenttransactionspanel_statuscolors",
+      "src_components_layout_dashboardlayout",
+      "src_components_layout_dashboardlayout_dashboardlayout",
+      "src_components_layout_dashboardlayout_dashboardlayoutprops",
+      "src_components_logo",
+      "src_components_logo_logo",
+      "src_components_logo_logoprops",
+      "src_components_ui_button",
+      "src_components_ui_button_button",
+      "src_components_ui_button_buttonprops",
+      "src_components_ui_card",
+      "src_components_ui_card_card",
+      "src_components_ui_card_cardcontent",
+      "src_components_ui_card_carddescription",
+      "src_components_ui_card_cardfooter",
+      "src_components_ui_card_cardheader",
+      "src_components_ui_card_cardtitle",
+      "src_components_ui_input",
+      "src_components_ui_input_input",
+      "src_components_ui_label",
+      "src_components_ui_label_label",
+      "src_components_ui_label_labelvariants",
+      "src_hooks_useauth",
+      "src_hooks_useauth_authcontext",
+      "src_hooks_useauth_authcontexttype",
+      "src_hooks_usesidebarbadges",
+      "src_hooks_usesidebarbadges_sidebarbadges",
+      "src_hooks_usesidebarbadges_usesidebarbadges",
+      "src_integrations_supabase_client",
+      "src_integrations_supabase_client_supabase",
+      "src_pages_admin_dashboard",
+      "src_pages_admin_dashboard_restaurantwithstats",
+      "src_pages_admin_settings",
+      "src_pages_auth_adminauth",
+      "src_pages_auth_restaurantauth",
+      "src_pages_index",
+      "src_pages_index_index",
+      "src_pages_restaurant_analytics",
+      "src_pages_restaurant_contactexport",
+      "src_pages_restaurant_menumanagement",
+      "src_pages_restaurant_settings",
+      "src_pages_restaurant_staffmanagement",
+      "src_pages_restaurant_staffmanagement_rolecolors",
+      "src_pages_restaurant_staffmanagement_roleicons",
+      "src_pages_restaurant_staffmanagement_rolelabels",
+      "src_pages_restaurant_staffrequests",
+      "src_pages_restaurant_staffrequests_requesticons",
+      "src_pages_restaurant_staffrequests_requestlabels",
+      "src_pages_restaurant_subscriptionplans",
+      "src_pages_restaurant_subscriptionplans_plans",
+      "src_pages_restaurant_subscriptionplans_planstyle",
+      "src_types_database_restaurant"
+    ],
+    "1": [
+      "autoprefixer",
+      "eslint",
+      "eslint_js",
+      "eslint_plugin_react_hooks",
+      "eslint_plugin_react_refresh",
+      "globals",
+      "lovable_tagger",
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_js",
+      "package_devdependencies_eslint_plugin_react_hooks",
+      "package_devdependencies_eslint_plugin_react_refresh",
+      "package_devdependencies_globals",
+      "package_devdependencies_lovable_tagger",
+      "package_devdependencies_postcss",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_typography",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_typescript_eslint",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react_swc",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_build_dev",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_preview",
+      "package_type",
+      "package_version",
+      "postcss",
+      "tailwindcss",
+      "tailwindcss_typography",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "typescript_eslint",
+      "vite",
+      "vitejs_plugin_react_swc"
+    ],
+    "2": [
+      "src_components_menu_ordertrackerdrawer",
+      "src_components_menu_ordertrackerdrawer_ordertrackerdrawer",
+      "src_components_menu_ordertrackerdrawer_statussteps",
+      "src_components_navlink",
+      "src_components_navlink_navlink",
+      "src_components_navlink_navlinkcompatprops",
+      "src_components_ui_chart",
+      "src_components_ui_chart_chartconfig",
+      "src_components_ui_chart_chartcontainer",
+      "src_components_ui_chart_chartcontext",
+      "src_components_ui_chart_chartcontextprops",
+      "src_components_ui_chart_chartlegendcontent",
+      "src_components_ui_chart_chartstyle",
+      "src_components_ui_chart_charttooltipcontent",
+      "src_components_ui_chart_getpayloadconfigfrompayload",
+      "src_components_ui_chart_themes",
+      "src_components_ui_chart_usechart",
+      "src_components_ui_checkbox",
+      "src_components_ui_checkbox_checkbox",
+      "src_components_ui_order_status_badge",
+      "src_components_ui_order_status_badge_orderstatusbadge",
+      "src_components_ui_order_status_badge_orderstatusbadgeprops",
+      "src_components_ui_order_status_badge_paymentstatusindicator",
+      "src_components_ui_order_status_badge_paymentstatusprops",
+      "src_components_ui_order_status_badge_statusconfig",
+      "src_components_ui_separator",
+      "src_components_ui_separator_separator",
+      "src_components_ui_sheet",
+      "src_components_ui_sheet_sheetcontent",
+      "src_components_ui_sheet_sheetcontentprops",
+      "src_components_ui_sheet_sheetdescription",
+      "src_components_ui_sheet_sheetfooter",
+      "src_components_ui_sheet_sheetheader",
+      "src_components_ui_sheet_sheetoverlay",
+      "src_components_ui_sheet_sheettitle",
+      "src_components_ui_sheet_sheetvariants",
+      "src_components_ui_skeleton",
+      "src_components_ui_skeleton_skeleton",
+      "src_components_ui_tooltip",
+      "src_components_ui_tooltip_tooltipcontent",
+      "src_components_voicerecorder",
+      "src_components_voicerecorder_voicerecorder",
+      "src_components_voicerecorder_voicerecorderprops",
+      "src_lib_utils",
+      "src_lib_utils_cn"
+    ],
+    "3": [
+      "src_components_auth_requireplatformadmin",
+      "src_components_auth_requireplatformadmin_requireplatformadmin",
+      "src_components_customerrequestbuttons",
+      "src_components_customerrequestbuttons_customerrequestbuttons",
+      "src_components_customerrequestbuttons_customerrequestbuttonsprops",
+      "src_hooks_use_toast_usetoast",
+      "src_hooks_useauth_useauth",
+      "src_lib_errorutils",
+      "src_lib_errorutils_createerrortoast",
+      "src_lib_errorutils_error_code_map",
+      "src_lib_errorutils_http_status_map",
+      "src_lib_errorutils_postgreserror",
+      "src_lib_errorutils_sanitizeerror",
+      "src_lib_validation",
+      "src_lib_validation_customeridentityschema",
+      "src_lib_validation_loginschema",
+      "src_lib_validation_menucategoryschema",
+      "src_lib_validation_menuitemschema",
+      "src_lib_validation_orderschema",
+      "src_lib_validation_restaurantsettingsschema",
+      "src_lib_validation_restaurantsetupschema",
+      "src_lib_validation_signupschema",
+      "src_lib_validation_validatedata",
+      "src_lib_validation_validationerror",
+      "src_lib_validation_validationresult",
+      "src_lib_validation_validationsuccess",
+      "src_pages_admin_dashboard_admindashboard",
+      "src_pages_admin_platformadmin_platformadmin",
+      "src_pages_auth_adminauth_adminauth",
+      "src_pages_auth_restaurantauth_restaurantauth",
+      "src_pages_restaurant_analytics_analytics",
+      "src_pages_restaurant_billingdashboard_billingdashboard",
+      "src_pages_restaurant_contactexport_contactexport",
+      "src_pages_restaurant_kitchenview_kitchenview",
+      "src_pages_restaurant_menumanagement_getimageurl",
+      "src_pages_restaurant_menumanagement_menumanagement",
+      "src_pages_restaurant_settings_getlogourl",
+      "src_pages_restaurant_settings_restaurantsettings",
+      "src_pages_restaurant_staffmanagement_staffmanagement",
+      "src_pages_restaurant_staffrequests_staffrequests",
+      "src_pages_restaurant_subscriptionplans_subscriptionplans",
+      "src_pages_restaurant_tablemanagement_tablemanagement",
+      "src_types_database_requesttype"
+    ],
+    "4": [
+      "src_components_billing_paymenttransactionspanel_paymenttransactionspanel",
+      "src_components_customerhelpbutton_customerhelpbutton",
+      "src_components_customeridentitydialog_customeridentitydialog",
+      "src_components_menu_ordertrackerdrawer_ordertrackerdrawerprops",
+      "src_components_ui_collapsible",
+      "src_components_ui_scroll_area",
+      "src_components_ui_scroll_area_scrollarea",
+      "src_components_ui_scroll_area_scrollbar",
+      "src_pages_customer_menu",
+      "src_pages_customer_menu_customermenu",
+      "src_pages_customer_menu_getimageurl",
+      "src_pages_restaurant_billingdashboard",
+      "src_pages_restaurant_billingdashboard_tablewithsession",
+      "src_types_database",
+      "src_types_database_approle",
+      "src_types_database_auditlog",
+      "src_types_database_cartitem",
+      "src_types_database_customercontact",
+      "src_types_database_customerrequest",
+      "src_types_database_customertag",
+      "src_types_database_invoice",
+      "src_types_database_menucategory",
+      "src_types_database_menuitem",
+      "src_types_database_order",
+      "src_types_database_orderitem",
+      "src_types_database_orderstatus",
+      "src_types_database_paymentmethod",
+      "src_types_database_paymentstatus",
+      "src_types_database_paymenttransaction",
+      "src_types_database_requeststatus",
+      "src_types_database_restaurantstatus",
+      "src_types_database_restauranttable",
+      "src_types_database_sessionstatus",
+      "src_types_database_subscriptionplan",
+      "src_types_database_tablesession",
+      "src_types_database_tablestatus",
+      "src_types_database_userrole"
+    ],
+    "5": [
+      "src_components_customerhelpbutton",
+      "src_components_customerhelpbutton_customerhelpbuttonprops",
+      "src_components_customeridentitydialog",
+      "src_components_customeridentitydialog_customeridentitydialogprops",
+      "src_components_customeridentitydialog_customerschema",
+      "src_components_ui_dialog",
+      "src_components_ui_dialog_dialogcontent",
+      "src_components_ui_dialog_dialogdescription",
+      "src_components_ui_dialog_dialogfooter",
+      "src_components_ui_dialog_dialogheader",
+      "src_components_ui_dialog_dialogoverlay",
+      "src_components_ui_dialog_dialogtitle",
+      "src_components_ui_select",
+      "src_components_ui_select_selectcontent",
+      "src_components_ui_select_selectitem",
+      "src_components_ui_select_selectlabel",
+      "src_components_ui_select_selectscrolldownbutton",
+      "src_components_ui_select_selectscrollupbutton",
+      "src_components_ui_select_selectseparator",
+      "src_components_ui_select_selecttrigger",
+      "src_components_ui_switch",
+      "src_components_ui_switch_switch",
+      "src_components_ui_textarea",
+      "src_components_ui_textarea_textarea",
+      "src_components_ui_textarea_textareaprops",
+      "src_pages_admin_platformadmin",
+      "src_pages_admin_platformadmin_plancolors",
+      "src_pages_admin_platformadmin_planfeatures",
+      "src_pages_admin_platformadmin_restaurantwithstats"
+    ],
+    "6": [
+      "src_app",
+      "src_app_app",
+      "src_app_queryclient",
+      "src_components_ui_sonner",
+      "src_components_ui_sonner_toaster",
+      "src_components_ui_sonner_toasterprops",
+      "src_hooks_useauth_authprovider",
+      "src_main",
+      "src_pages_admin_adminorders",
+      "src_pages_admin_adminorders_adminorders",
+      "src_pages_admin_adminorders_orderwithrestaurant",
+      "src_pages_admin_adminrevenue",
+      "src_pages_admin_adminrevenue_adminrevenue",
+      "src_pages_admin_adminrevenue_dailyrevenue",
+      "src_pages_admin_adminrevenue_revenuebyrestaurant",
+      "src_pages_admin_adminsubscribers",
+      "src_pages_admin_adminsubscribers_adminsubscribers",
+      "src_pages_admin_adminsubscribers_plancolors",
+      "src_pages_admin_adminsubscribers_planfeatures",
+      "src_pages_admin_settings_adminsettings",
+      "src_pages_customer_ordertracker",
+      "src_pages_customer_ordertracker_getlogourl",
+      "src_pages_customer_ordertracker_ordertracker",
+      "src_pages_customer_ordertracker_statuslabels",
+      "src_pages_customer_ordertracker_statussteps",
+      "src_pages_notfound",
+      "src_pages_notfound_notfound"
+    ],
+    "7": [
+      "src_components_ui_toast",
+      "src_components_ui_toast_toast",
+      "src_components_ui_toast_toastaction",
+      "src_components_ui_toast_toastactionelement",
+      "src_components_ui_toast_toastclose",
+      "src_components_ui_toast_toastdescription",
+      "src_components_ui_toast_toastprops",
+      "src_components_ui_toast_toasttitle",
+      "src_components_ui_toast_toastvariants",
+      "src_components_ui_toast_toastviewport",
+      "src_components_ui_toaster",
+      "src_components_ui_toaster_toaster",
+      "src_components_ui_use_toast",
+      "src_hooks_use_toast",
+      "src_hooks_use_toast_action",
+      "src_hooks_use_toast_actiontype",
+      "src_hooks_use_toast_actiontypes",
+      "src_hooks_use_toast_addtoremovequeue",
+      "src_hooks_use_toast_dispatch",
+      "src_hooks_use_toast_genid",
+      "src_hooks_use_toast_listeners",
+      "src_hooks_use_toast_memorystate",
+      "src_hooks_use_toast_reducer",
+      "src_hooks_use_toast_state",
+      "src_hooks_use_toast_toast",
+      "src_hooks_use_toast_toastertoast",
+      "src_hooks_use_toast_toasttimeouts"
+    ],
+    "8": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_es2020",
+      "tsconfig_app",
+      "tsconfig_app_compileroptions",
+      "tsconfig_app_compileroptions_allowimportingtsextensions",
+      "tsconfig_app_compileroptions_isolatedmodules",
+      "tsconfig_app_compileroptions_jsx",
+      "tsconfig_app_compileroptions_lib",
+      "tsconfig_app_compileroptions_module",
+      "tsconfig_app_compileroptions_moduledetection",
+      "tsconfig_app_compileroptions_moduleresolution",
+      "tsconfig_app_compileroptions_noemit",
+      "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_app_compileroptions_noimplicitany",
+      "tsconfig_app_compileroptions_nounusedlocals",
+      "tsconfig_app_compileroptions_nounusedparameters",
+      "tsconfig_app_compileroptions_paths",
+      "tsconfig_app_compileroptions_skiplibcheck",
+      "tsconfig_app_compileroptions_strict",
+      "tsconfig_app_compileroptions_target",
+      "tsconfig_app_compileroptions_usedefineforclassfields",
+      "tsconfig_app_include",
+      "tsconfig_app_json_ref_src"
+    ],
+    "9": [
+      "src_components_ui_alert_dialog",
+      "src_components_ui_alert_dialog_alertdialogaction",
+      "src_components_ui_alert_dialog_alertdialogcancel",
+      "src_components_ui_alert_dialog_alertdialogcontent",
+      "src_components_ui_alert_dialog_alertdialogdescription",
+      "src_components_ui_alert_dialog_alertdialogfooter",
+      "src_components_ui_alert_dialog_alertdialogheader",
+      "src_components_ui_alert_dialog_alertdialogoverlay",
+      "src_components_ui_alert_dialog_alertdialogtitle",
+      "src_components_ui_button_buttonvariants",
+      "src_components_ui_dropdown_menu",
+      "src_components_ui_dropdown_menu_dropdownmenucheckboxitem",
+      "src_components_ui_dropdown_menu_dropdownmenucontent",
+      "src_components_ui_dropdown_menu_dropdownmenuitem",
+      "src_components_ui_dropdown_menu_dropdownmenulabel",
+      "src_components_ui_dropdown_menu_dropdownmenuradioitem",
+      "src_components_ui_dropdown_menu_dropdownmenuseparator",
+      "src_components_ui_dropdown_menu_dropdownmenushortcut",
+      "src_components_ui_dropdown_menu_dropdownmenusubcontent",
+      "src_components_ui_dropdown_menu_dropdownmenusubtrigger",
+      "src_pages_restaurant_tablemanagement",
+      "src_pages_restaurant_tablemanagement_statusconfig",
+      "src_pages_restaurant_tablemanagement_table_colors"
+    ],
+    "10": [
+      "src_components_notificationbell",
+      "src_components_notificationbell_notification",
+      "src_components_notificationbell_notificationbell",
+      "src_components_notificationbell_notificationbellprops",
+      "src_components_ui_badge",
+      "src_components_ui_badge_badge",
+      "src_components_ui_badge_badgeprops",
+      "src_components_ui_badge_badgevariants",
+      "src_components_ui_tabs",
+      "src_components_ui_tabs_tabscontent",
+      "src_components_ui_tabs_tabslist",
+      "src_components_ui_tabs_tabstrigger",
+      "src_hooks_usenotifications",
+      "src_hooks_usenotifications_usenotifications",
+      "src_pages_restaurant_dashboard",
+      "src_pages_restaurant_dashboard_restaurantdashboard",
+      "src_pages_restaurant_kitchenview",
+      "src_pages_restaurant_kitchenview_cancelleditemrecord",
+      "src_pages_restaurant_kitchenview_orderwithitems"
+    ],
+    "11": [
+      "ref_es2023",
+      "ref_vite_config_ts",
+      "tsconfig_node",
+      "tsconfig_node_compileroptions",
+      "tsconfig_node_compileroptions_allowimportingtsextensions",
+      "tsconfig_node_compileroptions_isolatedmodules",
+      "tsconfig_node_compileroptions_lib",
+      "tsconfig_node_compileroptions_module",
+      "tsconfig_node_compileroptions_moduledetection",
+      "tsconfig_node_compileroptions_moduleresolution",
+      "tsconfig_node_compileroptions_noemit",
+      "tsconfig_node_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_node_compileroptions_nounusedlocals",
+      "tsconfig_node_compileroptions_nounusedparameters",
+      "tsconfig_node_compileroptions_skiplibcheck",
+      "tsconfig_node_compileroptions_strict",
+      "tsconfig_node_compileroptions_target",
+      "tsconfig_node_include"
+    ],
+    "12": [
+      "components",
+      "components_aliases",
+      "components_aliases_components",
+      "components_aliases_hooks",
+      "components_aliases_lib",
+      "components_aliases_ui",
+      "components_aliases_utils",
+      "components_rsc",
+      "components_schema",
+      "components_style",
+      "components_tailwind",
+      "components_tailwind_basecolor",
+      "components_tailwind_config",
+      "components_tailwind_css",
+      "components_tailwind_cssvariables",
+      "components_tailwind_prefix",
+      "components_tsx"
+    ],
+    "13": [
+      "package_dependencies",
+      "package_dependencies_radix_ui_react_checkbox",
+      "package_dependencies_radix_ui_react_menubar",
+      "package_dependencies_radix_ui_react_separator",
+      "package_dependencies_radix_ui_react_tabs",
+      "package_dependencies_radix_ui_react_toast",
+      "package_dependencies_radix_ui_react_toggle",
+      "radix_ui_react_checkbox",
+      "radix_ui_react_menubar",
+      "radix_ui_react_separator",
+      "radix_ui_react_tabs",
+      "radix_ui_react_toggle"
+    ],
+    "14": [
+      "src_integrations_supabase_types",
+      "src_integrations_supabase_types_compositetypes",
+      "src_integrations_supabase_types_constants",
+      "src_integrations_supabase_types_database",
+      "src_integrations_supabase_types_databasewithoutinternals",
+      "src_integrations_supabase_types_defaultschema",
+      "src_integrations_supabase_types_enums",
+      "src_integrations_supabase_types_json",
+      "src_integrations_supabase_types_tables",
+      "src_integrations_supabase_types_tablesinsert",
+      "src_integrations_supabase_types_tablesupdate"
+    ],
+    "15": [
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_noimplicitany",
+      "tsconfig_compileroptions_nounusedlocals",
+      "tsconfig_compileroptions_nounusedparameters",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strictnullchecks",
+      "tsconfig_files",
+      "tsconfig_references"
+    ],
+    "16": [
+      "scratch_print_menu_item_type",
+      "scratch_print_menu_item_type_content",
+      "scratch_print_menu_item_type_index"
+    ],
+    "17": [
+      "scratch_search_veg",
+      "scratch_search_veg_content",
+      "scratch_search_veg_lines"
+    ],
+    "18": [
+      "supabase_functions_cancel_order_index",
+      "supabase_functions_cancel_order_index_cancelorderrequest",
+      "supabase_functions_cancel_order_index_corsheaders"
+    ],
+    "19": [
+      "supabase_functions_verify_payment_index",
+      "supabase_functions_verify_payment_index_corsheaders",
+      "supabase_functions_verify_payment_index_verifypaymentrequest"
+    ],
+    "20": [
+      "class_variance_authority",
+      "package_dependencies_class_variance_authority"
+    ],
+    "21": [
+      "clsx",
+      "package_dependencies_clsx"
+    ],
+    "22": [
+      "cmdk",
+      "package_dependencies_cmdk"
+    ],
+    "23": [
+      "framer_motion",
+      "package_dependencies_framer_motion"
+    ],
+    "24": [
+      "html2canvas",
+      "package_dependencies_html2canvas"
+    ],
+    "25": [
+      "lucide_react",
+      "package_dependencies_lucide_react"
+    ],
+    "26": [
+      "next_themes",
+      "package_dependencies_next_themes"
+    ],
+    "27": [
+      "package_dependencies_qrcode_react",
+      "qrcode_react"
+    ],
+    "28": [
+      "package_dependencies_radix_ui_react_accordion",
+      "radix_ui_react_accordion"
+    ],
+    "29": [
+      "package_dependencies_radix_ui_react_alert_dialog",
+      "radix_ui_react_alert_dialog"
+    ],
+    "30": [
+      "package_dependencies_radix_ui_react_aspect_ratio",
+      "radix_ui_react_aspect_ratio"
+    ],
+    "31": [
+      "package_dependencies_radix_ui_react_avatar",
+      "radix_ui_react_avatar"
+    ],
+    "32": [
+      "package_dependencies_radix_ui_react_collapsible",
+      "radix_ui_react_collapsible"
+    ],
+    "33": [
+      "package_dependencies_radix_ui_react_context_menu",
+      "radix_ui_react_context_menu"
+    ],
+    "34": [
+      "package_dependencies_radix_ui_react_dialog",
+      "radix_ui_react_dialog"
+    ],
+    "35": [
+      "package_dependencies_radix_ui_react_dropdown_menu",
+      "radix_ui_react_dropdown_menu"
+    ],
+    "36": [
+      "package_dependencies_radix_ui_react_hover_card",
+      "radix_ui_react_hover_card"
+    ],
+    "37": [
+      "package_dependencies_radix_ui_react_label",
+      "radix_ui_react_label"
+    ],
+    "38": [
+      "package_dependencies_radix_ui_react_navigation_menu",
+      "radix_ui_react_navigation_menu"
+    ],
+    "39": [
+      "package_dependencies_radix_ui_react_popover",
+      "radix_ui_react_popover"
+    ],
+    "40": [
+      "package_dependencies_radix_ui_react_progress",
+      "radix_ui_react_progress"
+    ],
+    "41": [
+      "package_dependencies_radix_ui_react_radio_group",
+      "radix_ui_react_radio_group"
+    ],
+    "42": [
+      "package_dependencies_radix_ui_react_scroll_area",
+      "radix_ui_react_scroll_area"
+    ],
+    "43": [
+      "package_dependencies_radix_ui_react_select",
+      "radix_ui_react_select"
+    ],
+    "44": [
+      "package_dependencies_radix_ui_react_slider",
+      "radix_ui_react_slider"
+    ],
+    "45": [
+      "package_dependencies_radix_ui_react_slot",
+      "radix_ui_react_slot"
+    ],
+    "46": [
+      "package_dependencies_radix_ui_react_switch",
+      "radix_ui_react_switch"
+    ],
+    "47": [
+      "package_dependencies_radix_ui_react_toggle_group",
+      "radix_ui_react_toggle_group"
+    ],
+    "48": [
+      "package_dependencies_radix_ui_react_tooltip",
+      "radix_ui_react_tooltip"
+    ],
+    "49": [
+      "package_dependencies_react",
+      "react"
+    ],
+    "50": [
+      "package_dependencies_react_day_picker",
+      "react_day_picker"
+    ],
+    "51": [
+      "package_dependencies_react_dom",
+      "react_dom"
+    ],
+    "52": [
+      "package_dependencies_react_router_dom",
+      "react_router_dom"
+    ],
+    "53": [
+      "package_dependencies_recharts",
+      "recharts"
+    ],
+    "54": [
+      "package_dependencies_sonner",
+      "sonner"
+    ],
+    "55": [
+      "package_dependencies_supabase_supabase_js",
+      "supabase_supabase_js"
+    ],
+    "56": [
+      "package_dependencies_tailwind_merge",
+      "tailwind_merge"
+    ],
+    "57": [
+      "package_dependencies_tailwindcss_animate",
+      "tailwindcss_animate"
+    ],
+    "58": [
+      "package_dependencies_tanstack_react_query",
+      "tanstack_react_query"
+    ],
+    "59": [
+      "package_dependencies_vaul",
+      "vaul"
+    ],
+    "60": [
+      "package_dependencies_zod",
+      "zod"
+    ],
+    "61": [
+      "src_hooks_use_mobile",
+      "src_hooks_use_mobile_useismobile"
+    ],
+    "62": [
+      "app_auth_authenticator"
+    ],
+    "63": [
+      "baseexception"
+    ],
+    "64": [
+      "bool"
+    ],
+    "65": [
+      "constant"
+    ],
+    "66": [
+      "double"
+    ],
+    "67": [
+      "enum"
+    ],
+    "68": [
+      "eslint_config"
+    ],
+    "69": [
+      "float64"
+    ],
+    "70": [
+      "global"
+    ],
+    "71": [
+      "hashmap"
+    ],
+    "72": [
+      "hasname"
+    ],
+    "73": [
+      "injectable"
+    ],
+    "74": [
+      "ipv4address"
+    ],
+    "75": [
+      "ipv6address"
+    ],
+    "76": [
+      "kernel"
+    ],
+    "77": [
+      "list"
+    ],
+    "78": [
+      "loggable"
+    ],
+    "79": [
+      "module"
+    ],
+    "80": [
+      "multidigraph"
+    ],
+    "81": [
+      "mutablelist"
+    ],
+    "82": [
+      "namedtuple"
+    ],
+    "83": [
+      "namespace"
+    ],
+    "84": [
+      "ndarray"
+    ],
+    "85": [
+      "nsobject"
+    ],
+    "86": [
+      "nsstring"
+    ],
+    "87": [
+      "observableobject"
+    ],
+    "88": [
+      "openerdirector"
+    ],
+    "89": [
+      "override"
+    ],
+    "90": [
+      "postcss_config"
+    ],
+    "91": [
+      "processor"
+    ],
+    "92": [
+      "rectangle"
+    ],
+    "93": [
+      "relaycommand"
+    ],
+    "94": [
+      "routedeventargs"
+    ],
+    "95": [
+      "sampledelegate"
+    ],
+    "96": [
+      "scratch_graphify_repo_graphify_affected_py_path"
+    ],
+    "97": [
+      "scratch_graphify_repo_graphify_build_py_path"
+    ],
+    "98": [
+      "scratch_graphify_repo_graphify_cache_py_path"
+    ],
+    "99": [
+      "scratch_graphify_repo_graphify_callflow_html_py_counter"
+    ],
+    "100": [
+      "scratch_graphify_repo_graphify_callflow_html_py_path"
+    ],
+    "101": [
+      "scratch_graphify_repo_graphify_cargo_introspect_py_any"
+    ],
+    "102": [
+      "scratch_graphify_repo_graphify_cargo_introspect_py_path"
+    ],
+    "103": [
+      "scratch_graphify_repo_graphify_cli_py_path"
+    ],
+    "104": [
+      "scratch_graphify_repo_graphify_detect_py_path"
+    ],
+    "105": [
+      "scratch_graphify_repo_graphify_diagnostics_py_any"
+    ],
+    "106": [
+      "scratch_graphify_repo_graphify_diagnostics_py_counter"
+    ],
+    "107": [
+      "scratch_graphify_repo_graphify_diagnostics_py_path"
+    ],
+    "108": [
+      "scratch_graphify_repo_graphify_export_py_path"
+    ],
+    "109": [
+      "scratch_graphify_repo_graphify_extract_py_any"
+    ],
+    "110": [
+      "scratch_graphify_repo_graphify_extract_py_path"
+    ],
+    "111": [
+      "scratch_graphify_repo_graphify_extractors_apex_py_path"
+    ],
+    "112": [
+      "scratch_graphify_repo_graphify_extractors_base_py_path"
+    ],
+    "113": [
+      "scratch_graphify_repo_graphify_extractors_bash_py_path"
+    ],
+    "114": [
+      "scratch_graphify_repo_graphify_extractors_blade_py_path"
+    ],
+    "115": [
+      "scratch_graphify_repo_graphify_extractors_csharp_py_path"
+    ],
+    "116": [
+      "scratch_graphify_repo_graphify_extractors_dart_py_path"
+    ],
+    "117": [
+      "scratch_graphify_repo_graphify_extractors_dm_py_path"
+    ],
+    "118": [
+      "scratch_graphify_repo_graphify_extractors_elixir_py_path"
+    ],
+    "119": [
+      "scratch_graphify_repo_graphify_extractors_engine_py_path"
+    ],
+    "120": [
+      "scratch_graphify_repo_graphify_extractors_fortran_py_path"
+    ],
+    "121": [
+      "scratch_graphify_repo_graphify_extractors_go_py_path"
+    ],
+    "122": [
+      "scratch_graphify_repo_graphify_extractors_json_config_py_path"
+    ],
+    "123": [
+      "scratch_graphify_repo_graphify_extractors_julia_py_path"
+    ],
+    "124": [
+      "scratch_graphify_repo_graphify_extractors_markdown_py_path"
+    ],
+    "125": [
+      "scratch_graphify_repo_graphify_extractors_objc_py_path"
+    ],
+    "126": [
+      "scratch_graphify_repo_graphify_extractors_pascal_forms_py_path"
+    ],
+    "127": [
+      "scratch_graphify_repo_graphify_extractors_pascal_py_path"
+    ],
+    "128": [
+      "scratch_graphify_repo_graphify_extractors_powershell_py_path"
+    ],
+    "129": [
+      "scratch_graphify_repo_graphify_extractors_razor_py_path"
+    ],
+    "130": [
+      "scratch_graphify_repo_graphify_extractors_resolution_py_any"
+    ],
+    "131": [
+      "scratch_graphify_repo_graphify_extractors_resolution_py_path"
+    ],
+    "132": [
+      "scratch_graphify_repo_graphify_extractors_rust_py_path"
+    ],
+    "133": [
+      "scratch_graphify_repo_graphify_extractors_sln_py_path"
+    ],
+    "134": [
+      "scratch_graphify_repo_graphify_extractors_sql_py_path"
+    ],
+    "135": [
+      "scratch_graphify_repo_graphify_extractors_terraform_py_path"
+    ],
+    "136": [
+      "scratch_graphify_repo_graphify_extractors_verilog_py_path"
+    ],
+    "137": [
+      "scratch_graphify_repo_graphify_extractors_zig_py_path"
+    ],
+    "138": [
+      "scratch_graphify_repo_graphify_file_slice_py_path"
+    ],
+    "139": [
+      "scratch_graphify_repo_graphify_global_graph_py_path"
+    ],
+    "140": [
+      "scratch_graphify_repo_graphify_google_workspace_py_any"
+    ],
+    "141": [
+      "scratch_graphify_repo_graphify_google_workspace_py_path"
+    ],
+    "142": [
+      "scratch_graphify_repo_graphify_hooks_py_path"
+    ],
+    "143": [
+      "scratch_graphify_repo_graphify_ingest_py_path"
+    ],
+    "144": [
+      "scratch_graphify_repo_graphify_install_py_path"
+    ],
+    "145": [
+      "scratch_graphify_repo_graphify_llm_py_path"
+    ],
+    "146": [
+      "scratch_graphify_repo_graphify_main_py_path"
+    ],
+    "147": [
+      "scratch_graphify_repo_graphify_manifest_ingest_py_any"
+    ],
+    "148": [
+      "scratch_graphify_repo_graphify_manifest_ingest_py_path"
+    ],
+    "149": [
+      "scratch_graphify_repo_graphify_mcp_ingest_py_any"
+    ],
+    "150": [
+      "scratch_graphify_repo_graphify_mcp_ingest_py_path"
+    ],
+    "151": [
+      "scratch_graphify_repo_graphify_paths_py_path"
+    ],
+    "152": [
+      "scratch_graphify_repo_graphify_prs_py_path"
+    ],
+    "153": [
+      "scratch_graphify_repo_graphify_querylog_py_any"
+    ],
+    "154": [
+      "scratch_graphify_repo_graphify_querylog_py_path"
+    ],
+    "155": [
+      "scratch_graphify_repo_graphify_reflect_py_any"
+    ],
+    "156": [
+      "scratch_graphify_repo_graphify_reflect_py_datetime"
+    ],
+    "157": [
+      "scratch_graphify_repo_graphify_reflect_py_path"
+    ],
+    "158": [
+      "scratch_graphify_repo_graphify_resolver_registry_py_path"
+    ],
+    "159": [
+      "scratch_graphify_repo_graphify_scip_ingest_py_any"
+    ],
+    "160": [
+      "scratch_graphify_repo_graphify_security_py_any"
+    ],
+    "161": [
+      "scratch_graphify_repo_graphify_security_py_path"
+    ],
+    "162": [
+      "scratch_graphify_repo_graphify_semantic_cleanup_py_path"
+    ],
+    "163": [
+      "scratch_graphify_repo_graphify_symbol_resolution_py_any"
+    ],
+    "164": [
+      "scratch_graphify_repo_graphify_symbol_resolution_py_path"
+    ],
+    "165": [
+      "scratch_graphify_repo_graphify_transcribe_py_path"
+    ],
+    "166": [
+      "scratch_graphify_repo_graphify_tree_html_py_any"
+    ],
+    "167": [
+      "scratch_graphify_repo_graphify_tree_html_py_path"
+    ],
+    "168": [
+      "scratch_graphify_repo_graphify_watch_py_path"
+    ],
+    "169": [
+      "scratch_graphify_repo_graphify_wiki_py_path"
+    ],
+    "170": [
+      "scratch_graphify_repo_tests_bench_extract_py_path"
+    ],
+    "171": [
+      "scratch_graphify_repo_tests_bench_query_scoring_py_digraph"
+    ],
+    "172": [
+      "scratch_graphify_repo_tests_conftest_py_any"
+    ],
+    "173": [
+      "scratch_graphify_repo_tests_fixtures_objc_mixed_widgetextras_swift_string"
+    ],
+    "174": [
+      "scratch_graphify_repo_tests_fixtures_sample_cpp_string"
+    ],
+    "175": [
+      "scratch_graphify_repo_tests_fixtures_sample_cpp_t"
+    ],
+    "176": [
+      "scratch_graphify_repo_tests_fixtures_sample_cs_httpclient"
+    ],
+    "177": [
+      "scratch_graphify_repo_tests_fixtures_sample_cu_device"
+    ],
+    "178": [
+      "scratch_graphify_repo_tests_fixtures_sample_java_httpclient"
+    ],
+    "179": [
+      "scratch_graphify_repo_tests_fixtures_sample_kt_t"
+    ],
+    "180": [
+      "scratch_graphify_repo_tests_fixtures_sample_metal_device"
+    ],
+    "181": [
+      "scratch_graphify_repo_tests_fixtures_sample_ps1_string"
+    ],
+    "182": [
+      "scratch_graphify_repo_tests_fixtures_sample_rs_string"
+    ],
+    "183": [
+      "scratch_graphify_repo_tests_fixtures_sample_rs_t"
+    ],
+    "184": [
+      "scratch_graphify_repo_tests_fixtures_sample_scala_int"
+    ],
+    "185": [
+      "scratch_graphify_repo_tests_fixtures_sample_scala_loggable"
+    ],
+    "186": [
+      "scratch_graphify_repo_tests_fixtures_sample_scala_string"
+    ],
+    "187": [
+      "scratch_graphify_repo_tests_fixtures_sample_swift_int"
+    ],
+    "188": [
+      "scratch_graphify_repo_tests_fixtures_sample_swift_string"
+    ],
+    "189": [
+      "scratch_graphify_repo_tests_fixtures_xaml_viewmodel_viewmodels_toolkitviewmodel_cs_string"
+    ],
+    "190": [
+      "scratch_graphify_repo_tests_test_analyze_py_digraph"
+    ],
+    "191": [
+      "scratch_graphify_repo_tests_test_astro_extraction_py_path"
+    ],
+    "192": [
+      "scratch_graphify_repo_tests_test_build_merge_hyperedges_and_prune_py_path"
+    ],
+    "193": [
+      "scratch_graphify_repo_tests_test_callflow_html_py_path"
+    ],
+    "194": [
+      "scratch_graphify_repo_tests_test_cjs_module_extension_py_path"
+    ],
+    "195": [
+      "scratch_graphify_repo_tests_test_cli_export_py_completedprocess"
+    ],
+    "196": [
+      "scratch_graphify_repo_tests_test_cli_export_py_path"
+    ],
+    "197": [
+      "scratch_graphify_repo_tests_test_cpp_objc_cross_file_calls_py_path"
+    ],
+    "198": [
+      "scratch_graphify_repo_tests_test_cross_extension_reexport_self_cycle_py_path"
+    ],
+    "199": [
+      "scratch_graphify_repo_tests_test_cross_language_call_resolution_py_path"
+    ],
+    "200": [
+      "scratch_graphify_repo_tests_test_csharp_type_resolution_py_path"
+    ],
+    "201": [
+      "scratch_graphify_repo_tests_test_extract_cache_location_py_path"
+    ],
+    "202": [
+      "scratch_graphify_repo_tests_test_extract_code_only_cli_py_path"
+    ],
+    "203": [
+      "scratch_graphify_repo_tests_test_extraction_spec_ids_py_path"
+    ],
+    "204": [
+      "scratch_graphify_repo_tests_test_file_slice_py_path"
+    ],
+    "205": [
+      "scratch_graphify_repo_tests_test_hooks_py_path"
+    ],
+    "206": [
+      "scratch_graphify_repo_tests_test_import_extension_resolution_py_path"
+    ],
+    "207": [
+      "scratch_graphify_repo_tests_test_import_self_loops_py_path"
+    ],
+    "208": [
+      "scratch_graphify_repo_tests_test_incremental_py_completedprocess"
+    ],
+    "209": [
+      "scratch_graphify_repo_tests_test_incremental_py_path"
+    ],
+    "210": [
+      "scratch_graphify_repo_tests_test_java_member_calls_py_path"
+    ],
+    "211": [
+      "scratch_graphify_repo_tests_test_java_type_resolution_py_path"
+    ],
+    "212": [
+      "scratch_graphify_repo_tests_test_js_import_resolution_py_path"
+    ],
+    "213": [
+      "scratch_graphify_repo_tests_test_manifest_ingest_py_path"
+    ],
+    "214": [
+      "scratch_graphify_repo_tests_test_mcp_ingest_py_path"
+    ],
+    "215": [
+      "scratch_graphify_repo_tests_test_merge_graphs_cli_py_path"
+    ],
+    "216": [
+      "scratch_graphify_repo_tests_test_multigraph_diagnostics_py_path"
+    ],
+    "217": [
+      "scratch_graphify_repo_tests_test_office_incremental_py_path"
+    ],
+    "218": [
+      "scratch_graphify_repo_tests_test_phantom_cross_package_call_py_path"
+    ],
+    "219": [
+      "scratch_graphify_repo_tests_test_phantom_external_import_py_path"
+    ],
+    "220": [
+      "scratch_graphify_repo_tests_test_php_type_resolution_py_path"
+    ],
+    "221": [
+      "scratch_graphify_repo_tests_test_pipeline_py_path"
+    ],
+    "222": [
+      "scratch_graphify_repo_tests_test_prs_py_datetime"
+    ],
+    "223": [
+      "scratch_graphify_repo_tests_test_python_import_resolution_py_path"
+    ],
+    "224": [
+      "scratch_graphify_repo_tests_test_rationale_py_path"
+    ],
+    "225": [
+      "scratch_graphify_repo_tests_test_reflect_py_completedprocess"
+    ],
+    "226": [
+      "scratch_graphify_repo_tests_test_reflect_py_path"
+    ],
+    "227": [
+      "scratch_graphify_repo_tests_test_ruby_resolution_py_path"
+    ],
+    "228": [
+      "scratch_graphify_repo_tests_test_semantic_cache_out_root_py_path"
+    ],
+    "229": [
+      "scratch_graphify_repo_tests_test_serve_http_py_path"
+    ],
+    "230": [
+      "scratch_graphify_repo_tests_test_serve_py_digraph"
+    ],
+    "231": [
+      "scratch_graphify_repo_tests_test_skill_version_warning_py_path"
+    ],
+    "232": [
+      "scratch_graphify_repo_tests_test_src_layout_import_resolution_py_path"
+    ],
+    "233": [
+      "scratch_graphify_repo_tests_test_swift_cross_file_calls_py_path"
+    ],
+    "234": [
+      "scratch_graphify_repo_tests_test_swift_import_resolution_py_path"
+    ],
+    "235": [
+      "scratch_graphify_repo_tests_test_symbol_resolution_py_path"
+    ],
+    "236": [
+      "scratch_graphify_repo_tests_test_terraform_py_path"
+    ],
+    "237": [
+      "scratch_graphify_repo_tests_test_ts_decorators_py_path"
+    ],
+    "238": [
+      "scratch_graphify_repo_tests_test_ts_generators_py_path"
+    ],
+    "239": [
+      "scratch_graphify_repo_tests_test_ts_import_require_py_path"
+    ],
+    "240": [
+      "scratch_graphify_repo_tests_test_ts_inheritance_py_path"
+    ],
+    "241": [
+      "scratch_graphify_repo_tests_test_ts_namespace_py_path"
+    ],
+    "242": [
+      "scratch_graphify_repo_tests_test_typescript_module_extensions_py_path"
+    ],
+    "243": [
+      "scratch_graphify_repo_tests_test_vue_extraction_py_path"
+    ],
+    "244": [
+      "scratch_graphify_repo_tests_test_wheel_packaging_py_path"
+    ],
+    "245": [
+      "scratch_graphify_repo_tools_skillgen_gen_py_path"
+    ],
+    "246": [
+      "scratch_graphify_repo_worked_example_raw_validator_py_exception"
+    ],
+    "247": [
+      "scratch_graphify_repo_worked_httpx_raw_exceptions_py_exception"
+    ],
+    "248": [
+      "self"
+    ],
+    "249": [
+      "src_vite_env_d"
+    ],
+    "250": [
+      "str"
+    ],
+    "251": [
+      "tailwind_config"
+    ],
+    "252": [
+      "task"
+    ],
+    "253": [
+      "testclient"
+    ],
+    "254": [
+      "uint"
+    ],
+    "255": [
+      "vec"
+    ],
+    "256": [
+      "vector"
+    ],
+    "257": [
+      "vite_config"
+    ],
+    "258": [
+      "void"
+    ],
+    "259": [
+      "window"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15653389238294899,
+    "1": 0.043478260869565216,
+    "2": 0.06868686868686869,
+    "3": 0.06866002214839424,
+    "4": 0.08558558558558559,
+    "5": 0.10591133004926108,
+    "6": 0.08262108262108261,
+    "7": 0.11396011396011396,
+    "8": 0.08333333333333333,
+    "9": 0.1225296442687747,
+    "10": 0.19298245614035087,
+    "11": 0.1111111111111111,
+    "12": 0.11764705882352941,
+    "13": 0.18181818181818182,
+    "14": 0.18181818181818182,
+    "15": 0.18181818181818182,
+    "16": 0.6666666666666666,
+    "17": 0.6666666666666666,
+    "18": 0.6666666666666666,
+    "19": 0.6666666666666666,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0,
+    "66": 1.0,
+    "67": 1.0,
+    "68": 1.0,
+    "69": 1.0,
+    "70": 1.0,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0,
+    "153": 1.0,
+    "154": 1.0,
+    "155": 1.0,
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0,
+    "159": 1.0,
+    "160": 1.0,
+    "161": 1.0,
+    "162": 1.0,
+    "163": 1.0,
+    "164": 1.0,
+    "165": 1.0,
+    "166": 1.0,
+    "167": 1.0,
+    "168": 1.0,
+    "169": 1.0,
+    "170": 1.0,
+    "171": 1.0,
+    "172": 1.0,
+    "173": 1.0,
+    "174": 1.0,
+    "175": 1.0,
+    "176": 1.0,
+    "177": 1.0,
+    "178": 1.0,
+    "179": 1.0,
+    "180": 1.0,
+    "181": 1.0,
+    "182": 1.0,
+    "183": 1.0,
+    "184": 1.0,
+    "185": 1.0,
+    "186": 1.0,
+    "187": 1.0,
+    "188": 1.0,
+    "189": 1.0,
+    "190": 1.0,
+    "191": 1.0,
+    "192": 1.0,
+    "193": 1.0,
+    "194": 1.0,
+    "195": 1.0,
+    "196": 1.0,
+    "197": 1.0,
+    "198": 1.0,
+    "199": 1.0,
+    "200": 1.0,
+    "201": 1.0,
+    "202": 1.0,
+    "203": 1.0,
+    "204": 1.0,
+    "205": 1.0,
+    "206": 1.0,
+    "207": 1.0,
+    "208": 1.0,
+    "209": 1.0,
+    "210": 1.0,
+    "211": 1.0,
+    "212": 1.0,
+    "213": 1.0,
+    "214": 1.0,
+    "215": 1.0,
+    "216": 1.0,
+    "217": 1.0,
+    "218": 1.0,
+    "219": 1.0,
+    "220": 1.0,
+    "221": 1.0,
+    "222": 1.0,
+    "223": 1.0,
+    "224": 1.0,
+    "225": 1.0,
+    "226": 1.0,
+    "227": 1.0,
+    "228": 1.0,
+    "229": 1.0,
+    "230": 1.0,
+    "231": 1.0,
+    "232": 1.0,
+    "233": 1.0,
+    "234": 1.0,
+    "235": 1.0,
+    "236": 1.0,
+    "237": 1.0,
+    "238": 1.0,
+    "239": 1.0,
+    "240": 1.0,
+    "241": 1.0,
+    "242": 1.0,
+    "243": 1.0,
+    "244": 1.0,
+    "245": 1.0,
+    "246": 1.0,
+    "247": 1.0,
+    "248": 1.0,
+    "249": 1.0,
+    "250": 1.0,
+    "251": 1.0,
+    "252": 1.0,
+    "253": 1.0,
+    "254": 1.0,
+    "255": 1.0,
+    "256": 1.0,
+    "257": 1.0,
+    "258": 1.0,
+    "259": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_lib_utils_cn",
+      "label": "cn()",
+      "degree": 59
+    },
+    {
+      "id": "src_hooks_use_toast_usetoast",
+      "label": "useToast()",
+      "degree": 41
+    },
+    {
+      "id": "src_hooks_useauth_useauth",
+      "label": "useAuth()",
+      "degree": 35
+    },
+    {
+      "id": "src_integrations_supabase_client_supabase",
+      "label": "supabase",
+      "degree": 25
+    },
+    {
+      "id": "src_components_ui_button_button",
+      "label": "Button",
+      "degree": 24
+    },
+    {
+      "id": "src_types_database_restaurant",
+      "label": "Restaurant",
+      "degree": 21
+    },
+    {
+      "id": "src_components_ui_card_card",
+      "label": "Card",
+      "degree": 20
+    },
+    {
+      "id": "src_components_ui_card_cardcontent",
+      "label": "CardContent",
+      "degree": 20
+    },
+    {
+      "id": "src_components_ui_card_cardheader",
+      "label": "CardHeader",
+      "degree": 19
+    },
+    {
+      "id": "src_components_ui_card_cardtitle",
+      "label": "CardTitle",
+      "degree": 19
+    }
+  ],
+  "surprises": [
+    {
+      "source": "DialogFooter()",
+      "target": "cn()",
+      "source_files": [
+        "src/components/ui/dialog.tsx",
+        "src/lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `DialogFooter()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "DropdownMenuShortcut()",
+      "target": "cn()",
+      "source_files": [
+        "src/components/ui/dropdown-menu.tsx",
+        "src/lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `DropdownMenuShortcut()` unexpectedly reaches hub `cn()`"
+    },
+    {
+      "source": "RestaurantWithStats",
+      "target": "Restaurant",
+      "source_files": [
+        "src/pages/admin/PlatformAdmin.tsx",
+        "src/types/database.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "why": "bridges separate communities; peripheral node `RestaurantWithStats` unexpectedly reaches hub `Restaurant`"
+    },
+    {
+      "source": "CustomerHelpButton()",
+      "target": "useToast()",
+      "source_files": [
+        "src/components/CustomerHelpButton.tsx",
+        "src/hooks/use-toast.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "CustomerRequestButtons()",
+      "target": "useToast()",
+      "source_files": [
+        "src/components/CustomerRequestButtons.tsx",
+        "src/hooks/use-toast.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `CustomerRequestButtons()` unexpectedly reaches hub `useToast()`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `cn()` connect `cn` to `MenuManagement.tsx`, `useToast`, `database.ts`, `PlatformAdmin.tsx`, `hooks/use-toast.ts`, `TableManagement.tsx`, `KitchenView.tsx`?",
+      "why": "High betweenness centrality (0.031) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `dependencies` to `devDependencies`, `class-variance-authority`, `clsx`, `cmdk`, `framer-motion`, `html2canvas`, `lucide-react`, `next-themes`, `qrcode.react`, `@radix-ui/react-accordion`, `@radix-ui/react-alert-dialog`, `@radix-ui/react-aspect-ratio`, `@radix-ui/react-avatar`, `@radix-ui/react-collapsible`, `@radix-ui/react-context-menu`, `@radix-ui/react-dialog`, `@radix-ui/react-dropdown-menu`, `@radix-ui/react-hover-card`, `@radix-ui/react-label`, `@radix-ui/react-navigation-menu`, `@radix-ui/react-popover`, `@radix-ui/react-progress`, `@radix-ui/react-radio-group`, `@radix-ui/react-scroll-area`, `@radix-ui/react-select`, `@radix-ui/react-slider`, `@radix-ui/react-slot`, `@radix-ui/react-switch`, `@radix-ui/react-toggle-group`, `@radix-ui/react-tooltip`, `react`, `react-day-picker`, `react-dom`, `react-router-dom`, `recharts`, `sonner`, `@supabase/supabase-js`, `tailwind-merge`, `tailwindcss-animate`, `@tanstack/react-query`, `vaul`, `zod`?",
+      "why": "High betweenness centrality (0.031) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `$schema`, `style`, `rsc` to the rest of the system?",
+      "why": "243 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `devDependencies` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `cn` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06868686868686869 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `useToast` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06866002214839424 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `database.ts` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08558558558558559 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
